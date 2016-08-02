@@ -1,0 +1,35 @@
+{
+    "quizData" : [
+  {
+    "text" : "What breed of dog is this ?",
+    "choices" : ["Fox Terrier", "Boston Terrier", "Welsh Terrier", "Irish Terrier"],
+    "correctChoiceIndex" : 2,
+    "imagePath" : "images/welshTerrier.jpg"
+  },
+  {
+    "text": "Can you guess the breed of this dog ?",
+    "choices" : ["Poodle", "Border Collie", "Beagle", "Basset Hound"],
+    "correctChoiceIndex" : 1,
+    "imagePath" : "images/borderCollie.jpg"
+  },
+  {
+    "text" : "I'm thinking of a number between 1 and 4. What is it?",
+    "choices" : ["1", "2", "3", "4"],
+    "correctChoiceIndex" : 2,
+    "imagePath" : "images/maltese.jpg"
+  },
+  {
+    "text" : "If I were a number between 1 and 4, which would I be?",
+    "choices" : ["1", "2", "3", "4"],
+    "correctChoiceIndex" : 3,
+    "imagePath" : "images/foxTerrier.jpg"
+  },
+  {
+    "text" : "Guess what my favorite number is",
+    "choices" : ["1", "2", "3", "4"],
+    "correctChoiceIndex" : 0,
+    "imagePath" : "images/irishTerrier.jpg"
+  }]
+
+
+}

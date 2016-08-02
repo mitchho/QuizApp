@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dog Breed Knowledge Quiz</title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="styles/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style.css"/> 
+	</head>
+	<body>
+		<div class="container">
+
+    		<main></main>
+
+  		</div>
+
+  		<!-- inline styling this instead of CSS because it should never be viewable to anyone except our JS, which uses this content as mini-templates for questions and answers -->
+  		
+  		<div style="display:none;">
+
+    		<div id="js-start-template">
+      			<h1>Quiz App</h1>
+      			<p>This app tests your ability to guess the correct breed of a dog from a photo of it. </p>
+     			<form name="game-start">
+        			<button type="submit">start</button>
+      		</form>
+    		</div>
+
+        <div id="js-question-template">
+            <img class = "pic" id='theDogImage' width = "300" height="300" /> 
+            <h3>
+            <span class="js-question-count"></span>
+            <span class="js-question-score"></span><br><br>
+            <span class="js-question-text"></span>
+            </h3><br>
+            <form name="current-question">
+              <ol type="A" class="js-choices"></ol>
+              <button type="submit">Submit</button>
+              <button class="js-restart-game">Start over</button>
+            </form>
+        </div>
+
+        <div id="js-choice-template">
+          <li>
+            <input type="radio" name="user-answer" required>
+            <label></label>
+          </li>
+        </div>
+
+        <div id="js-answer-feedback-template">
+          <div class="js-feedback-container">
+          <div class="js-feedback-header"></div>
+          <p class="js-feedback-text"></p>
+          <button class="js-see-next"></button>
+          </div>
+        </div>
+
+        <div id="js-final-feedback-template">
+          <h1>Results</h1>
+          <p class="js-results-text"></p>
+          <button class="js-restart-game">Start over</button>
+        </div>
+
+    	</div>
+
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+    </body>
+</html>
